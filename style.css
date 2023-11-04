@@ -9,9 +9,10 @@ body {
     margin-right: 10vh;
     width: 800px;
 }
-.decor{
+.endgame{
     color: red;
-
+    padding-left: 51em;
+    padding-bottom: 8em;
 }
 .startbutton {
     color: cyan;

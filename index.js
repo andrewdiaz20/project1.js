@@ -67,7 +67,7 @@ class Player extends Sprite{
         super({imageSrc, frameRate})
         this.position = {
             x: 100,
-            y: 100,
+            y: 400,
         }
         this.velocity = {
             x:0,
@@ -90,7 +90,9 @@ class Player extends Sprite{
     }
 }
 
+class endGame{
 
+}
 
 //stored background image//
 const backgroundLevel1 = new Sprite({
@@ -185,7 +187,7 @@ const keys = {
 }
 
 
-//invoking images//
+//running the image//
 function animate(){
     window.requestAnimationFrame(animate)
 
