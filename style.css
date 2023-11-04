@@ -1,3 +1,6 @@
+canvas{
+    margin-left: -7em;
+}
 body {
     margin-top: 10vh;
     padding-left: auto;
@@ -8,6 +11,7 @@ body {
 }
 .decor{
     color: red;
+
 }
 .startbutton {
     color: cyan;
