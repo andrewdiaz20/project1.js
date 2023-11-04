@@ -174,6 +174,17 @@ const box=[
     })
 ]
 
+const diamond=[
+    new Sprite({
+        frameRate:10,
+        position:{
+            x:950,
+            y:530,
+        },
+        imageSrc:"Sprites/12-Live and Coins/Big Diamond Idle (18x14).png"
+    })
+]
+
 const keys = {
     w:{
         pressed: false,
@@ -207,6 +218,10 @@ function animate(){
 
     box.forEach((box) => {
         box.draw()
+    })
+
+    diamond.forEach((diamond) => {
+        diamond.draw()
     })
 
 
@@ -245,4 +260,6 @@ window.addEventListener('keyup', (event) => {
         break
     }
 })
+
+
 //player movement//
