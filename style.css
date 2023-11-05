@@ -19,10 +19,10 @@ body {
     background: black;
     display: flex;
     flex-direction: column;
-    margin-left: 77vh;
+    margin-left: 44vh;
     margin-top: 20vh;
-}
-
+    align-items: center;
+}    
 header{
     font-size: 30px;
     font-style: italic;
