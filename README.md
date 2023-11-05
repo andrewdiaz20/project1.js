@@ -19,7 +19,9 @@ shops
 
 
 Sources
-Art 
+Background Art:
+https://itch.io/game-assets/free
+//used for the bckground of the screen//
 
 Sound:
 https://opengameart.org/content/dungeon-1
