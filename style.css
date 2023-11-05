@@ -22,20 +22,25 @@ body {
     margin-left: 77vh;
     margin-top: 20vh;
 }
-.gameover{
-    color: cyan;
-    background: black;
-    display: flex;
-    flex-direction: column;
-    margin-left: 55vh;
-    margin-top: 20vh;
-    flex-wrap: wrap;
-    align-content: center;
-}
+
 header{
     font-size: 30px;
     font-style: italic;
 }
 button{
     color: red;
+}
+.gameover, p {
+    padding-left: 2em;
+}
+
+.gameover {
+    color: cyan;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40vh;
+    margin-top: 20vh;
+    flex-wrap: wrap;
+    align-content: center;
 }
