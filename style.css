@@ -44,3 +44,6 @@ button{
     flex-wrap: wrap;
     align-content: center;
 }
+.gameover, div{
+    padding-left: 3em;
+}
